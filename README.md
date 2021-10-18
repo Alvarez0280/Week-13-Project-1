@@ -46,19 +46,19 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the Jump Box Machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- My Public IP
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+Machines within the network can only be accessed by Jump Box VM.
+- My Public IP
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | Yes                 | My Public IP         |
+| VMS      | NO                  | 10.0.0.4             |
+| ELK      | NO                  | 10.0.0.4             |
 
 ### Elk Configuration
 
