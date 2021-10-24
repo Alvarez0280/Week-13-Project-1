@@ -73,7 +73,6 @@ The playbook implements the following tasks:
 
 ![image](https://user-images.githubusercontent.com/84087947/138614873-7e061d70-3b5d-4d5b-b4cf-85cf733a0960.png)
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
