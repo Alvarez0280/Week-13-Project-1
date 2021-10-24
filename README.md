@@ -66,11 +66,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Using Ansible in this way allows us to quickly install, update, and add web servers to our network using the same playbooks.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Install docker.io and pip3
+- Install Docker python module
+- Increase the memory
+- Download and launch docker elk container
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+![image](https://user-images.githubusercontent.com/84087947/138614873-7e061d70-3b5d-4d5b-b4cf-85cf733a0960.png)
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
